@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:  
+  Uploading-job:  
+    name: 'Run Schedule on Sofy Web'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'checkout'
+        uses: 'actions/checkout@v2'
+      - name: 'Run Task'
+        env:
+          subscription_key: F0D2B9BF-930D-486B-B3A4-348AAF8902FE
+          schedule_run_guid: 697744891749de90bd7b6bb9
+        uses: 'SOFYDEVELOPER/Sofy-Web-Task-Action@main'        
