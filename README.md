@@ -1,4 +1,4 @@
-## Sofy-Web-Task-Run
+## Sofy-Web-Schedule-Run-Agent
 
 This repository contains a GitHub Action that allows you to execute a Sofy Web Schedule directly from your GitHub workflow.
 
@@ -80,3 +80,4 @@ Ubuntu runner (runs-on: ubuntu-latest)
 Valid Sofy schedule_run_guid
 
 Valid subscription_key
+
