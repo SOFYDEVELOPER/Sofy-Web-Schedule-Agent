@@ -57,10 +57,9 @@ jobs:
       - name: Execute Sofy Web Prompt
         uses: SOFYDEVELOPER/Sofy-Web-Schedule-Action@main
         with:
-          project_id: '69773c4d1749de90bd7b6bb4'
+          schedule_run_guid: '69773c4d1749de90bd7b6bb4'
           subscription_key: 'YOUR_SUBSCRIPTION_KEY'
-          prompt: 'Open sofy.ai. Go to login page'
-
+        
 ## How It Works
 
 This action:
@@ -80,4 +79,5 @@ Ubuntu runner (runs-on: ubuntu-latest)
 Valid Sofy schedule_run_guid
 
 Valid subscription_key
+
 
